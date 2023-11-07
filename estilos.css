@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    line-height: 18px;
+    height:auto;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    border: solid gray 0.5px;
+}
+
+header img{
+    left: 0;
+    float: left;
+    width: 10%;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    margin-right: 110px;
+}
+
+h2 {
+    color: black;
+    margin: 25px;
+    margin-top: 40px;
+    border: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border: solid gray 0.5px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+.flexbox {
+    display: flex;
+    margin: 15px;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.zona1{
+    display: flex;
+    margin: 15px;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 110%;
+    margin-top: 20px;
+}
+
+.pic1 {
+    display: flex;
+    left: 0;
+    width: 35%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.zona2 {
+    display: flex;
+    left: 0;
+    right: 0;
+    height: 300px;
+    justify-content: center;
+}
+
+.carretera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    left: 0;
+    height: 100px;
+    width: 30%;
+}
+
+.pic4 {
+    display: flex;
+    left: 0;
+    width: 20%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.seguridad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 20%;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.pic5 {
+    display: flex;
+    left: 0;
+    width: 20%;
+    height: auto;
+}
+
+.zona3 {
+    display: flex;
+    margin: 15px;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.zona4 {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.caja2 {
+    display: flex;
+    left: 0;
+    width: 50%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.pic2 {
+    display: flex;
+    width: 40%;
+    height: auto;
+    left: 0;
+    margin-left: 10px;
+} 
+
+.pic3 {
+    display: flex;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+}
+
+.zona5{
+    display: flex;
+    border: double grey 10px;
+    justify-content: center;
+    background-color: black;
+}
+
+.caja4 {
+    color: white;
+    display: inline;
+    list-style-type: none;
+    
+}
+
+h3 {
+    margin: 10px;
+    text-align: left;
+}
+
+p {
+    margin: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+a {
+    color: orange;
+    margin: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+ul li {
+    left: 0;
+    text-align: left
+}
+
+section {
+    background-color: white;
+    margin-bottom: 50px;
+    border-top: solid black 1.5px;
+}
+
+/*La colocación sin espacios de las imágenes está hecha a propósito */
+section img {
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: solid black 1px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+footer h2 {
+    color: white;
+    background-color: black;
+}
+
+footer section {
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    text-align: center;
+}
